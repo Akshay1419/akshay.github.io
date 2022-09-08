@@ -1,0 +1,24 @@
+<script>
+
+    const funA = () => {
+
+        setTimeout(function () {
+            console.log(`Welcome Fn A`);
+            funB();
+        }, 3000)
+
+
+
+
+    }
+
+
+    const funB = () => {
+
+        console.log(`Welcome Fn B`);
+    }
+
+    funA();
+
+
+</script>
